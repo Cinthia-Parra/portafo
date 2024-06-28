@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+body {
+    background-image: url(recursos/imagenes/fondo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    color: rgb(230, 224, 195);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    position: fixed;
+    background-color: black;
+    box-shadow: 5px 1px 300px rgba(173, 173, 173, 0.493);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1px;
+    
+}
+.Tatuarte {
+    margin-left: 20px;
+    font-size: 20px;
+    border-style:solid;
+    padding: 7px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-bottom-color: rgba(189, 143, 16, 0.363);
+        border-right-color: rgba(189, 143, 16, 0.363);
+        color: aliceblue;
+}
+
+nav, li {
+    text-align: end; 
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    height:90px max;
+}
+
+nav {
+    margin-top: 0%;
+
+}
+li, a {
+    list-style: none;
+    padding: 0px 20px;
+    color: rgb(219, 219, 219);
+    display: inline end;
+}
+
+li>a{
+    border-bottom: outset;
+    border-color: rgba(240, 248, 255, 0.308);
+    padding-bottom: 3px;
+    border-width: 1px;
+    
+}
+
+/* aqui termina barra nav */ 
+section {
+    background-color: rgba(0, 0, 0, 0.822);
+    display: grid;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin: 0px 10%;
+
+
+
+
+}
+h1,h2 {
+    color: rgb(224, 192, 13);
+    font-size: larger;
+}
+article {
+    display: grid; 
+    margin: 30px;
+    justify-content: center;
+}
+span {
+    font-size:xx-large;
+}
+p {
+    display: flex;
+}
+/* aqui empieza imagen */ 
+
+#cinthia_image {
+    width: 300px ;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 40px;
+
+}
+/* aqui empieza parrafos */ 
+main
+{
+    display: flex;
+    width: 100%;
+
+}
+
+
+/* aqui empieza footer */ 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+    bottom: 0px;
+    position:fixed;
+    background-color: black;
+}
+
+#footer_a {
+    display: flex;
+    bottom: 0px;
+}
